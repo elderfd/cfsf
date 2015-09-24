@@ -6,7 +6,7 @@
     }
 
     // Change the default footer
-    add_action("wp_loaded", "changeFooter")
+    add_action("wp_loaded", "changeFooter");
     function changeFooter() {
         remove_filter( 'omega_footer_insert', 'omega_default_footer_insert' );
         add_filter( 'omega_footer_insert', 'newFooter' );
