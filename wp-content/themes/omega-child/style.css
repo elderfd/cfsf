@@ -1,0 +1,21 @@
+/*
+    Theme Name: Omega Child
+    Theme URI: ?
+    Description: Omega customised for CFSF
+    Author: James Elderfield
+    Author URI: ?
+    Template: omega
+    Version: 0.0.1
+    License: MIT
+    License URI: https://opensource.org/licenses/MIT
+    Tags: CFSF, omega
+    Text Domain: omega-child
+*/
+
+.site-header {
+    background: #91B9A4;
+}
+
+.widget {
+    list-style-type: none;
+}
