@@ -20,6 +20,10 @@
     list-style-type: none;
 }
 
-.sidebar {
+.aside {
     float: left;
+}
+
+.content {
+    float: right;
 }
