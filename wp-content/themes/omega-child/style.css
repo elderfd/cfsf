@@ -19,3 +19,7 @@
 .widget {
     list-style-type: none;
 }
+
+.sidebar {
+    float: left;
+}
