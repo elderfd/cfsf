@@ -15,4 +15,10 @@
             return '<p class="copyright">' . __( 'Copyright &#169; ', 'omega' ) . date_i18n( 'Y' ) . ' ' . get_bloginfo( 'name' ) . '.</p>';
         }
     }
+
+    // Customise buddypress registration form
+    add_action("bp_before_account_details_fields", "addExtraRegisterInfo");
+    function addExtraRegisterInfo() {
+        return "TEST";
+    }
 ?>
