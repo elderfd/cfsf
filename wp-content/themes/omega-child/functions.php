@@ -17,7 +17,7 @@
     }
 
     // Customise buddypress registration form
-    add_action("bp_before_account_details_fields", "addExtraRegisterInfo");
+    add_action("bp_before_account_details_fields", "addExtraRegisterInfo", 15);
     function addExtraRegisterInfo() {
         echo "TEST";
     }
