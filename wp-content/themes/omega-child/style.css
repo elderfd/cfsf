@@ -30,4 +30,5 @@
 
 .sidebar {
     float: left;
+    position: fixed;
 }
