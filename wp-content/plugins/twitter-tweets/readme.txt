@@ -3,8 +3,8 @@ Contributors: weblizar
 Donate link: http://www.weblizar.com/
 Tags: twitter, twitter plugin, button, connect, follow button, tvet, tvett, tvit, tviter, tvitt, tweet, tweeter, twett, twit, twiter, twitter connect, tweet, twitter connect, twitter follow, twitter follow button, twitter share, twitter share button, social, button, social button, stream, tweets, twitter widget, latest tweets, add tweet, twitter shortcode, twitter button, reply, follow me, like, follow, twitter news, tweets, bitly, links, microblogging, Post, redirect, shortener, yourls, widget, plugin, wordpress twitter, twitter bootstrap, archive, integrate, integration, notify, shortcode, twitter search, twitter sidebar, twitter timeline, twitter tools,  twitter-followers, WordPress Twitter , twitter api, twitter badge, twitter button, twitter cards, twitter connect, twitter favorites, social bookmark, social bookmarking, add link to twitter, post to twitter, publish post to twitter, social media, feed, twitter feed, social feed, social news, twitter ads, twitter analytics, twitter cards, twitter video, embedded tweet, 
 Requires at least: 3.0
-Tested up to: 4.3
-Stable tag: 1.0
+Tested up to: 4.3.1
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -77,6 +77,8 @@ Please use WordPress support forum to ask any query regarding any issue.
 
 For more information, see Weblizar(http://wwww.weblizar.com/).
 
+= 1.1 29-Sep-2015 =
+* Compatible with wordpress 4.3.1
 
 = 1.0 25-Aug-2015 =
 * Small Updates in code

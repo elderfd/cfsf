@@ -15,7 +15,7 @@
 	do_action( 'omega_after_footer' ); 
 	?>
 </div><!-- .site-container -->
-<?php do_action('omega_after'); ?>
+<?php do_action( 'omega_after' ); ?>
 <?php wp_footer(); ?>
 </body>
 </html>

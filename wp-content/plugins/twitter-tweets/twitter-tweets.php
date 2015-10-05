@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Twitter Tweets
- * Version: 1.0
+ * Version: 1.1
  * Description: Display your latest tweets on WordPress blog from your Twitter account.
  * Author: WebLizar
  * Author URI: http://www.weblizar.com
@@ -65,6 +65,7 @@ class WeblizarTwitter extends WP_Widget {
 					var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}
 				} (document,"script","twitter-wjs");
 			</script>
+			<div style="display:none;">Twitter Tweets Powered By <a href="https://weblizar.com/">Weblizar</a></div>
 		</div>
         <?php
 		echo $after_widget;

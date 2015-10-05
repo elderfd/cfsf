@@ -25,7 +25,7 @@ if ( $protection && $protection == 'on' ) {
 	$give_access = false;
 
 	$message_option = get_option('ss_podcasting_protection_no_access_message');
-	$message = __( 'You are not permitted to view this podcast feed.' , 'ss-podcasting' );
+	$message = __( 'You are not permitted to view this podcast feed.' , 'seriously-simple-podcasting' );
 	if ( $message_option && strlen( $message_option ) > 0 && $message_option != '' ) {
 		$message = $message_option;
 	}
@@ -88,6 +88,18 @@ if ( isset( $_GET['podcast_series'] ) && $_GET['podcast_series'] ) {
 if ( $podcast_series ) {
 	$series = get_term_by( 'slug', $podcast_series, 'series' );
 	$series_id = $series->term_id;
+
+	// Do we need to redirect a single feed?
+	$redirect = get_option( 'ss_podcasting_redirect_feed_' . $series_id );
+	$new_feed_url = false;
+	if ( $redirect && $redirect == 'on' ) {
+		$new_feed_url = get_option( 'ss_podcasting_new_feed_url_' . $series_id );
+		if ( $new_feed_url ) {
+			header ( 'HTTP/1.1 301 Moved Permanently' );
+			header ( 'Location: ' . $new_feed_url );
+			exit;
+		}
+	}
 }
 
 // Podcast title
@@ -332,7 +344,7 @@ echo '<?xml version="1.0" encoding="' . get_option('blog_charset') . '"?'.'>'; ?
 
 			// iTunes summary does not allow any HTML and must be shorter than 4000 characters
 			$itunes_summary = strip_tags( get_the_content() );
-			$itunes_summary = str_replace( array( '&', '>', '<', '\'', '"', '`' ), array( __( 'and', 'ss-podcasting' ), '', '', '', '', '' ), $itunes_summary );
+			$itunes_summary = str_replace( array( '&', '>', '<', '\'', '"', '`' ), array( __( 'and', 'seriously-simple-podcasting' ), '', '', '', '', '' ), $itunes_summary );
 			$itunes_summary = mb_substr( $itunes_summary, 0, 3949 );
 
 			// iTunes short description does not allow any HTML and must be shorter than 4000 characters
