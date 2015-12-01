@@ -1,9 +1,9 @@
 === Seriously Simple Podcasting ===
-Contributors: hlashbrooke
-Tags: podcast, audio, rss, rss2, m4a, mp3, feed, itunes, media player, podcasting, radio, audio player, media, id3, stitcher, show, shows, series, simple, docs, documentation, wav
+Contributors: hlashbrooke, whyisjake
+Tags: seriously simple podcasting, podcast, audio, rss, rss2, m4a, mp3, feed, itunes, media player, podcasting, radio, audio player, media, id3, stitcher, show, shows, series, simple, docs, documentation, wav, oembed, embed, ssp, free, add-ons, extensions, addons
 Requires at least: 4.2
-Tested up to: 4.3.1
-Stable tag: 1.11.2
+Tested up to: 4.4
+Stable tag: 1.13.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,6 +17,7 @@ Podcasting the way it's meant to be. No mess, no fuss - just you and your conten
 
 - Simple settings so you can get your podcast up and running quickly
 - Run multiple podcasts from the same site - each with their own, unique RSS feed
+- Gather thorough stats on your listeners using the [free stats add-on](https://wordpress.org/plugins/seriously-simple-stats/)
 - New `podcast` post type and `series` taxonomy for managing your podcast episodes
 - Use any post type for your podcast episodes
 - Highly configurable and robust RSS feed designed for *all* podcast services and feed readers, including iTunes and Stitcher
@@ -24,20 +25,23 @@ Podcasting the way it's meant to be. No mess, no fuss - just you and your conten
 - Playable episodes using the built-in WordPress media player
 - The freedom to host your audio files on the same site or any other server
 - Complete user and developer [documentation](http://www.seriouslysimplepodcasting.com/)
-- Full i18n support (comes with English and Russian translations)
-
-**Some examples of the plugin in action**
-
-- [Southern Cross Church](http://www.southerncrosschurch.org/sermons/)
-- [WP Cape Town](http://www.wpcapetown.co.za/podcast/)
+- Full i18n support
 
 **Where to find help**
 
 Seriously Simple Podcasting comes with complete user and developer [documentation](http://www.seriouslysimplepodcasting.com/). Please read this documentation thoroughly before posting on [the support forum](https://wordpress.org/support/plugin/seriously-simple-podcasting).
 
+**Add-ons**
+
+Seriously Simple Podcasting comes with a growing [library of add-ons](http://www.seriouslysimplepodcasting.com/add-ons/). Just like the core plugin itself, all of the add-ons are 100% free to use and will always remain that way.
+
 **How to contribute**
 
 If you want to contribute to Seriously Simple Podcasting, you can [fork the GitHub repository](https://github.com/hlashbrooke/Seriously-Simple-Podcasting) - please read the [contributor guidelines](https://github.com/hlashbrooke/Seriously-Simple-Podcasting/blob/master/CONTRIBUTING.md) for more information on how you can do this.
+
+**Help translate this plugin**
+
+If you would like to contribute translations to this plugin you can do so through [a simple web interface](https://translate.wordpress.org/projects/wp-plugins/seriously-simple-podcasting). Any and all translations (new languages or updates to existing ones) are always welcome.
 
 == Usage ==
 
@@ -78,6 +82,55 @@ You can find complete user and developer documentation (along with the FAQs) on 
 12. Podcast series widget
 
 == Changelog ==
+
+= 1.13.3 =
+* 2015-11-24
+* [FIX] Preventing preloading of audio in player
+
+= 1.13.2 =
+* 2015-11-16
+* [FIX] Making sure the 'Date Recorded' field is able to be populated and cleared correctly
+
+= 1.13.1 =
+* 2015-11-12
+* [TWEAK] Adjusting episode recorded date display to be more human readable on the episode edit screen
+* [TWEAK] Adding new URL structure specifically for the audio player file URLs (not publicly visible)
+* [TWEAK] Updating episode cache to cache series queries separately
+* [TWEAK] Updating plugin links in the plugin list table
+
+= 1.13 =
+* 2015-11-03
+* [NEW] Adding option to mark feeds as complete using `itunes:complete` feed tag if no more episodes will ever be added to the feed
+* [NEW] Adding `ssp_episode_meta_details` filter to allow episode meta data to be easily modified on the fly - [read the filter docs here](http://www.seriouslysimplepodcasting.com/documentation/filter-reference/#ssp-episode-meta-details)
+* [NEW] Adding `ssp_show_audio_player` filter to allow dynamic control of audio player visibility - [read the filter docs here](http://www.seriouslysimplepodcasting.com/documentation/filter-reference/#ssp-show-audio-player)
+* [NEW] Adding customisable episode embed code field to episode edit screen for easy copying (available in WordPress 4.4+)
+* [TWEAK] Adding notice for FastCGI servers on Security settings page
+* [TWEAK] Ensuring the episode update nonce never returns an 'undefined variable' error
+* [TWEAK] Updating `itunes:explicit` feed tag with correct values as per new iTunes specification
+* [TWEAK] Updating admin screen markup for WordPress 4.4+
+* [TWEAK] Updating post type and taxonomy registration arguments for WordPress 4.4+
+* [FIX] Making sure audio player does not show up in `ss_podcast` shortcode (issue introduced in v1.12.1)
+* [FIX] Fixing iTunes episode descriptions to be the correct length and include HTML correctly
+
+= 1.12.1 =
+* 2015-10-27
+* [TWEAK] Ensuring that episode meta data display is the same in all locations
+
+= 1.12 =
+* 2015-10-23
+* [NEW] Added `manage_podcast` capability to allow editing of podcast settings (adds to Editors & Administrators by default)
+* [NEW] Added podcast player and meta data to oEmbed excerpt in WordPress 4.4+
+* [NEW] Added the ability to select up to three category/sub-category pairs for each feed
+* [TWEAK] Removing localisation files as translations are now handled on translate.wordpress.org
+* [TWEAK] Improving MIME type detection for audio files and adding caching for faster queries
+* [TWEAK] Improving feed performance by removing duplicate actions performed on summary and excerpt text
+
+= 1.11.3 =
+* 2015-10-06
+* [NEW] Adding series-specific feed tags to HTML head as it should be
+* [NEW] Adding `ssp_show_global_feed_tag` and `ssp_show_series_feed_tag` filters to hide feed tags from HTML head
+* [NEW] Adding German translation (props signor-rossi)
+* [FIX] Making sure shortcodes do not appear in iTunes excerpt (props Jake Spurlock)
 
 = 1.11.2 =
 * 2015-10-01
@@ -488,5 +541,5 @@ You can find complete user and developer documentation (along with the FAQs) on 
 
 == Upgrade Notice ==
 
-= 1.11.2 =
-* v1.11 contains a number of important updates and some helpful new features - all users are advised to update ASAP.
+= 1.13.3 =
+* v1.13.x contains a number of important updates and some helpful new features - all users are advised to update ASAP.

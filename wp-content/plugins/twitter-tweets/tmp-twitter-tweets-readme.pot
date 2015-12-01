@@ -1,0 +1,197 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Twitter"
+msgstr ""
+
+#. Short description.
+msgid "Display Twitter Tweets Using Widget On WordPress Blog With Follow Button"
+msgstr ""
+
+#. Screenshot description.
+msgid "Twitter Tweets Widget Preview"
+msgstr ""
+
+#. Screenshot description.
+msgid "Twitter Tweets Widget Settings"
+msgstr ""
+
+#. Screenshot description.
+msgid "Twitter Tweets Widget Preview On Site"
+msgstr ""
+
+#. Screenshot description.
+msgid "Twitter Tweets in Page"
+msgstr ""
+
+#. Screenshot description.
+msgid "Twitter Tweets in Post"
+msgstr ""
+
+#. Found in description list item, remaining content list item.
+msgid "Twitter Tweets Widget"
+msgstr ""
+
+#. Found in description list item, changelog list item, remaining content list
+#. item.
+msgid "Widget Customization Settings"
+msgstr ""
+
+#. Found in description list item, changelog list item, remaining content list
+#. item.
+msgid "Widget Title"
+msgstr ""
+
+#. Found in description list item, changelog list item, remaining content list
+#. item.
+msgid "Widget Theme Option"
+msgstr ""
+
+#. Found in description list item, changelog list item, remaining content list
+#. item.
+msgid "Set Widget Height"
+msgstr ""
+
+#. Found in description list item, changelog list item, remaining content list
+#. item.
+msgid "Tweets URL Link Color Option"
+msgstr ""
+
+#. Found in description list item, changelog list item, remaining content list
+#. item.
+msgid "Show/Hide Tweets Reply"
+msgstr ""
+
+#. Found in description list item.
+msgid "Add Follow Button"
+msgstr ""
+
+#. Found in description list item.
+msgid "Submit Your Tweet live on your website"
+msgstr ""
+
+#. Found in description list item.
+msgid "Re tweet and choose your favourite tweets"
+msgstr ""
+
+#. Found in description list item, changelog list item, remaining content list
+#. item.
+msgid "Auto Expand Photos in Tweets"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Twitter tweets plugin is a twitter widget plugin display twitter accounts latest tweets on your WordPress blog."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Twitter tweets plugin allows you to set your twitter account widget Id &amp; twitter username. You can customize twitter widget by apply custom height, auto expand tweets images, custom link URL color, On / Off tweets reply etc."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Using <strong>Twitter Tweets</strong> widget display your least tweets on your WordPress blog site."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Features</strong>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload the entire <code>twitter-tweets</code> folder to the <code>/wp-content/plugins/</code> directory."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the 'Plugins' menu in WordPress."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to Widgets in Appearance Menu and activate the <strong>Twitter Tweets</strong> widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Twitter Shortcode added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small bug fixed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatible with wordpress 4.3.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small Updates in code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: WordPress 4.2 Compatible"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Widget Title"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatible With WordPress 4.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatible With WordPress 4.0.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small changes in file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatible With WordPress 4.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove design issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small changes in readme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "resolved css error."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "For more information, see Weblizar(http://wwww.weblizar.com/)."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Please use WordPress support forum to ask any query regarding any issue."
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Features"
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Docs &amp; Support"
+msgstr ""
+
+#. Found in remaining content header.
+msgid "We Need Your Support"
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Translators"
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "You can find <a href=\"http://weblizar.com/twitter-tweets/\">docs</a>, <a href=\"http://www.weblizar.com/faq/\">FAQ</a> and more detailed information about Twitter Tweets on <a href=\"http://www.weblizar.com\">Weblizar</a>. If you were unable to find the answer to your question on the FAQ or in any of the documentation, you should check the <a href=\"http://weblizar.com/twitter-tweets/\">support forum</a> on WordPress.org."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "It is really hard to continue development and support for this free plugin without contributions from users like you. If you are enjoying using our Testimonial plugin and find it useful, then please consider <a href=\"http://www.weblizar.com\"><strong>Making a Donation</strong></a>. Your donation will help us to encourage and support the plugin's continued development and better user support."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "Please contribute to translate our plugin.  Contact at <code>lizarweb (at) gmail (dot) com</code>."
+msgstr ""

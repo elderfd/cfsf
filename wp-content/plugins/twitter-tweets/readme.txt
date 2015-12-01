@@ -1,10 +1,10 @@
 === Twitter ===
 Contributors: weblizar
 Donate link: http://www.weblizar.com/
-Tags: twitter, twitter plugin, button, connect, follow button, tvet, tvett, tvit, tviter, tvitt, tweet, tweeter, twett, twit, twiter, twitter connect, tweet, twitter connect, twitter follow, twitter follow button, twitter share, twitter share button, social, button, social button, stream, tweets, twitter widget, latest tweets, add tweet, twitter shortcode, twitter button, reply, follow me, like, follow, twitter news, tweets, bitly, links, microblogging, Post, redirect, shortener, yourls, widget, plugin, wordpress twitter, twitter bootstrap, archive, integrate, integration, notify, shortcode, twitter search, twitter sidebar, twitter timeline, twitter tools,  twitter-followers, WordPress Twitter , twitter api, twitter badge, twitter button, twitter cards, twitter connect, twitter favorites, social bookmark, social bookmarking, add link to twitter, post to twitter, publish post to twitter, social media, feed, twitter feed, social feed, social news, twitter ads, twitter analytics, twitter cards, twitter video, embedded tweet, 
+Tags: twitter, twitter plugin, button, connect, follow button, tvet, tvett, tvit, tviter, tvitt, tweet, tweeter, twett, twit, twiter, twitter connect, tweet, twitter connect, twitter follow, twitter follow button, twitter share, twitter share button, social, button, social button, stream, tweets, twitter widget, latest tweets, add tweet, twitter shortcode, twitter button, reply, follow me, like, follow, twitter news, tweets, bitly, links, microblogging, Post, redirect, shortener, yourls, widget, plugin, wordpress twitter, twitter bootstrap, archive, integrate, integration, notify, shortcode, twitter search, twitter sidebar, twitter timeline, twitter tools,  twitter-followers, WordPress Twitter , twitter api, twitter badge, twitter button, twitter cards, twitter connect, twitter favorites, social bookmark, social bookmarking, add link to twitter, post to twitter, publish post to twitter, social media, feed, twitter feed, social feed, social news, twitter ads, twitter analytics, twitter cards, twitter video, embedded tweet,
 Requires at least: 3.0
 Tested up to: 4.3.1
-Stable tag: 1.1
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,7 +31,7 @@ Using **Twitter Tweets** widget display your least tweets on your WordPress blog
 * Add Follow Button
 * Submit Your Tweet live on your website
 * Re tweet and choose your favourite tweets
-* Auto Expand Photos in Tweets 
+* Auto Expand Photos in Tweets
 
 
 == Features ==
@@ -42,7 +42,7 @@ Using **Twitter Tweets** widget display your least tweets on your WordPress blog
 * Set Widget Height
 * Tweets URL Link Color Option
 * Show/Hide Tweets Reply
-* Auto Expand Photos in Tweets 
+* Auto Expand Photos in Tweets
 
 = Docs & Support =
 
@@ -72,10 +72,18 @@ Please use WordPress support forum to ask any query regarding any issue.
 1. Twitter Tweets Widget Preview
 2. Twitter Tweets Widget Settings
 3. Twitter Tweets Widget Preview On Site
+4. Twitter Tweets in Page
+5. Twitter Tweets in Post
 
 == Changelog ==
 
 For more information, see Weblizar(http://wwww.weblizar.com/).
+
+= 1.3 02-Nov-2015 =
+* Twitter Shortcode added
+
+= 1.2 19-Oct-2015 =
+* Small bug fixed
 
 = 1.1 29-Sep-2015 =
 * Compatible with wordpress 4.3.1

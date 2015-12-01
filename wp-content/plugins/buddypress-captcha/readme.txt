@@ -4,7 +4,7 @@ Author URI: http://www.hardeepasrani.com
 Tags: spam, google, captcha, buddypress, anti-spam, recaptcha, registration, user, form, security
 Requires at least: 3.2
 Tested up to: 4.1
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,3 +38,6 @@ Fixed link.
 = 1.1 =
 SSL Support
 FIxed Link
+= 1.2 =
+Updated to use Recpatcha 2.0
+Needs PHP 5.3 or above to work
